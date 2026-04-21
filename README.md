@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎵 Hallelujah — Faith-Based Music & Bible App
 
-## Getting Started
+> A modern web application that brings together **Christian music, podcasts, and scripture** in one unified, distraction-free experience.
 
-First, run the development server:
+---
+
+## ✨ Overview
+
+**Hallelujah** is a Spotify-inspired faith-based application designed to support users in their daily spiritual journey.
+
+It allows users to:
+- Listen to **Christian music**
+- Explore **faith-based podcasts & episodes**
+- Read the **Bible directly inside the app**
+- Manage a **personal library (likes, downloads, playlists)**
+
+---
+
+## 🌟 Features
+
+🎵 **Music Streaming**  
+- Discover and listen to worship, gospel, and inspirational tracks.
+
+🎙️ **Podcasts & Episodes**  
+- Access devotionals, sermons, and faith-centered discussions.
+
+📖 **Built-in Bible Reader**  
+- Read scripture with structured navigation and multiple sections.
+
+🔍 **Category-Based Search**  
+- Explore content by categories like *Healing, Sleep, Workout, Kids*.
+
+❤️ **Personal Library**  
+- Save liked songs, downloads, and playlists in one place.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Next.js, React
+- **Styling:** Tailwind CSS
+- **State Management:** React Hooks / Context API
+- **Deployment:** Vercel
+- **APIs / Data:** (add if you used any)
+
+---
+
+## 📸 Screenshots
+
+_Add your app screenshots here (Home, Search, Library, Bible page)_
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
 
 ```bash
+git clone https://github.com/sumayyatabasum/hallelujah.git
+cd hallelujah
+2. Install dependencies
+npm install
+3. Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+Open:
+👉 http://localhost:3000
+
+---
+
+## 📁 Project Structure
+```bash
+hallelujah/
+├── app/            # Main app routes (Next.js)
+├── components/     # Reusable UI components
+├── public/         # Static assets
+├── styles/         # Global styles
+├── package.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎯 Purpose of the Project
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### This project was built to:
 
-## Learn More
+- Combine music + podcasts + scripture into one platform
+- Provide a clean and peaceful user experience
+- Explore building a full-stack modern web application
+- 🚧 Future Improvements
+  - 🔐 Authentication (user login/signup)
+  - ☁️ Backend integration (Supabase / Firebase)
+  - 🎧 Real audio streaming integration
+  - 📊 Creator dashboard (Hallelujah Studio)
+  - 🌍 Multi-language Bible support
+  - 🤝 Contributing
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributions are welcome!
+Feel free to fork the repo and submit a pull request.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 👩‍💻 Author
+
+Sumayya Tabasum
+
+GitHub: https://github.com/sumayyatabasum
