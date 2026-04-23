@@ -2,13 +2,13 @@
 
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from "../components/ui/dropdown-menu";
 import { ChevronDown, Menu, X } from "lucide-react";
 
 export default function Navbar() {
